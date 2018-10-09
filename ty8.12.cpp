@@ -16,5 +16,8 @@ int main()
 		cout << "Element " << index << " = " << *(myNumbers + index) << endl;
 
 	cout << "Display array using ptr with array syntax, operator []" << endl;
-	for (int index =
+	for (int index = 0; index < ARRAY_LEN; ++index)
+		cout << "Element " << index << " = " << pointToNums [index] << endl;
+
+	return 0;
 }
